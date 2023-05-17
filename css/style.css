@@ -39,3 +39,12 @@ section {
 .debug .col.c-j-borders {
     border: 2px dashed yellowgreen; 
 }
+
+/* other row aand col */
+[class^='row'] {
+    border: 2px solid brown; 
+}
+
+[class^='col'] {
+    border: 2px solid gold; 
+}
