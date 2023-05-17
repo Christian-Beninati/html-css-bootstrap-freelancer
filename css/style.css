@@ -14,11 +14,28 @@ header {
     border: 2px dashed orange; 
 }
 
-.debug .r-h-borders {
+.debug .row.r-h-borders {
     border: 2px dashed violet; 
 }
 
-.debug .c-h-borders {
+.debug .col.c-h-borders {
     border: 2px dashed blue; 
 }
 
+/* menu */
+/* jumbotron */
+section {
+    min-height: 1000px;
+}
+
+.debug .sect {
+    border: 2px dashed red; 
+}
+
+.debug .row.r-j-borders {
+    border: 2px dashed black; 
+}
+
+.debug .col.c-j-borders {
+    border: 2px dashed yellowgreen; 
+}
