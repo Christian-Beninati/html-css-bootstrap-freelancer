@@ -32,12 +32,9 @@ section {
     border: 2px dashed red; 
 }
 
-.debug .row.r-j-borders {
+.debug .j-borders {
     border: 2px dashed black; 
-}
-
-.debug .col.c-j-borders {
-    border: 2px dashed yellowgreen; 
+    min-height: 400px;
 }
 
 /* other row aand col */
@@ -51,4 +48,8 @@ section {
 
 .form-cont {
     min-height: 400px;
+}
+
+.copyright {
+    min-height: 80px;
 }
