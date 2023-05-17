@@ -1,0 +1,24 @@
+
+/* custom properties */
+:root {
+  
+}
+
+/* debug */
+
+/* header */
+header {
+    height: 80px;
+}
+.debug .hed-borders {
+    border: 2px dashed orange; 
+}
+
+.debug .r-h-borders {
+    border: 2px dashed violet; 
+}
+
+.debug .c-h-borders {
+    border: 2px dashed blue; 
+}
+
