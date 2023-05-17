@@ -48,3 +48,7 @@ section {
 [class^='col'] {
     border: 2px solid gold; 
 }
+
+.form-cont {
+    min-height: 400px;
+}
