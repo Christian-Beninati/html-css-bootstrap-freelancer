@@ -23,6 +23,9 @@
 .b-green {
     background-color: var(--bg-green);
 }
+.col-green {
+    color: var(--bg-green);
+}
 
 /* debug */
 
@@ -38,11 +41,6 @@ header .navbar {
 
 /* menu */
 /* jumbotron */
-section {
-    min-height: 500px;
-    border: 2px dashed red; 
-}
-
 .avatar {
     max-width: 250px;
 }
@@ -67,29 +65,12 @@ section {
     box-shadow: none;
 }
 
-/* ?todo rem */
-/* .debug .sect {
-    border: 2px dashed red; 
-} */
-
-.debug .j-borders {
-    border: 2px dashed black; 
-    min-height: 500px;
-}
-
-/* other row aand col */
-[class^='row'] {
-    border: 2px solid brown; 
-}
-
-[class^='col'] {
-    /* border: 2px solid gold;  */
-}
-
-.form-cont {
-    min-height: 400px;
+/* footer */
+.footer-up {
+    background-color: var(--bg-footer-up);
 }
 
 .copyright {
-    min-height: 80px;
+    background-color: var(--bg-footer-down);
+    height: 80px;
 }
