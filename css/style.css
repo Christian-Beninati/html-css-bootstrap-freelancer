@@ -19,6 +19,11 @@
     --br-icon: #B1B5B9;
 }
 
+/* utilities */
+.b-green {
+    background-color: var(--bg-green);
+}
+
 /* debug */
 
 /* header */
@@ -31,21 +36,24 @@ header .navbar {
     border: 1px solid var(--br-icon);
 }
 
-
-
 /* menu */
 /* jumbotron */
 section {
     min-height: 400px;
-}
-
-.debug .sect {
     border: 2px dashed red; 
 }
 
+.avatar {
+    max-width: 250px;
+}
+
+/* .debug .sect {
+    border: 2px dashed red; 
+} */
+
 .debug .j-borders {
     border: 2px dashed black; 
-    min-height: 400px;
+    min-height: 500px;
 }
 
 /* other row aand col */
