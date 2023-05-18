@@ -1,26 +1,37 @@
+ /************************************************
+ Breakpoints
+ ************************************************/ 
+ /* Extra small         none  <576px
+    Small               sm    ≥576px
+    Medium              md    ≥768px
+    Large               lg    ≥992px
+    Extra large         xl    ≥1200px
+    Extra extra large   xxl   ≥1400px
+*/
+
 
 /* custom properties */
 :root {
-  
+    --bg-header: #2D3E50;
+    --bg-green: #30BC9B;
+    --bg-footer-up: #3A546D;
+    --bg-footer-down: #2D3E50;
+    --br-icon: #B1B5B9;
 }
 
 /* debug */
 
 /* header */
-header {
-    height: 80px;
-}
-.debug .hed-borders {
-    border: 2px dashed orange; 
+header .navbar {
+    height: 85px;
+    background-color: var(--bg-header);
 }
 
-.debug .row.r-h-borders {
-    border: 2px dashed violet; 
+.br-icon {
+    border: 1px solid var(--br-icon);
 }
 
-.debug .col.c-h-borders {
-    border: 2px dashed blue; 
-}
+
 
 /* menu */
 /* jumbotron */
@@ -43,7 +54,7 @@ section {
 }
 
 [class^='col'] {
-    border: 2px solid gold; 
+    /* border: 2px solid gold;  */
 }
 
 .form-cont {
