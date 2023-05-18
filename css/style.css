@@ -47,6 +47,27 @@ section {
     max-width: 250px;
 }
 
+/* contact me */
+#contacts textarea {
+    width: 100%;
+    height: 200px;
+}
+
+#contacts .form-control {
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+    border-color: #CCCCCC;
+}
+
+#contacts ::placeholder {
+    color: #2D3E50;
+}
+
+#contacts .form-control:focus {
+    box-shadow: none;
+}
+
+/* ?todo rem */
 /* .debug .sect {
     border: 2px dashed red; 
 } */
