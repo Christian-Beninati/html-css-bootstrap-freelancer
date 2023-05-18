@@ -39,7 +39,7 @@ header .navbar {
 /* menu */
 /* jumbotron */
 section {
-    min-height: 400px;
+    min-height: 500px;
     border: 2px dashed red; 
 }
 
