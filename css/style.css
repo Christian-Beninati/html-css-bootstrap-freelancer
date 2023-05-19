@@ -27,7 +27,24 @@
     color: var(--bg-green);
 }
 
-/* debug */
+.bar {
+    height: 4px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.bar > i {
+    line-height: 1px;
+}
+
+.bar-w {
+    background-color: white;
+}
+
+.bar-bl {
+    background-color: black;
+}
 
 /* header */
 header .navbar {
@@ -83,4 +100,9 @@ header .navbar {
     margin-left:10px;
     text-align: center;
     line-height: 50px;
+}
+
+.footer-down p {
+    margin: 0;
+    font-size: 13px;
 }
